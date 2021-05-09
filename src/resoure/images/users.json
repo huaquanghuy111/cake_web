@@ -1,0 +1,76 @@
+[{
+  "_id": {
+    "$oid": "6097b1e9f7dd799a393edf40"
+  },
+  "email": "huahuy@gmail.com",
+  "password": "huy123456",
+  "address": "Ha Noi",
+  "createAt": {
+    "$date": "2019-12-31T17:00:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "6097b26bf7dd799a393edf41"
+  },
+  "email": "hoangtubongdem@gmail.com",
+  "password": "yeuem123",
+  "address": "Quang Ninh",
+  "createAt": {
+    "$date": "2020-01-01T17:00:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "6097b2cff7dd799a393edf42"
+  },
+  "email": "lehoangminh@gmail.com",
+  "password": "minhle123",
+  "address": "Ninh Binh",
+  "createAt": {
+    "$date": "2021-01-02T17:00:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "6097b8a21fc03c33b85ae530"
+  },
+  "email": "hua@gmail.com",
+  "password": "huy12345",
+  "address": "Quang Nam",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6097b9b6d322b317b0721c78"
+  },
+  "email": "kaka@gmai.com",
+  "password": "4564651",
+  "address": "thanh hoa",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6097ba4e2076f2232cdc8cf1"
+  },
+  "email": "ghjgjk@gmail.com",
+  "password": "5461631",
+  "address": "nghe an",
+  "createAt": null,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6097bc81f5e70020286a9856"
+  },
+  "email": "Gsdjfk@djf",
+  "password": "hello",
+  "address": "ha tinh",
+  "createAt": null,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6097bf7a20d64f1fc8d932c6"
+  },
+  "email": "hdfdu@hdf",
+  "password": "6546461",
+  "address": "Tuyen Quang",
+  "createAt": {
+    "$date": "2021-05-09T10:54:50.065Z"
+  },
+  "__v": 0
+}]

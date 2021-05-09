@@ -64,14 +64,21 @@ img{
     img{
         max-width: 760px
     }
+    .product-item{
+        margin-bottom: 0
+    }
     .product-price{
-       
+       margin-top: 0;
+       position: unset;
         text-align: center
     }
     .footer{
-        margin-top: 100px;
+        margin-top: 150px
         
         
+    }
+    .Social-link{
+        margin: 0 12px;
     }
     .footer_colu{
         text-align: center 

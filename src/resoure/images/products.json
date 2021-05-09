@@ -1,0 +1,46 @@
+[{
+  "_id": {
+    "$oid": "60969c6ed83333069b4eae29"
+  },
+  "name": "Cheese Cake",
+  "discript": "Đây là loại bánh ngọt được làm chủ yếu từ phô mai, tạo vị béo ngậy. Phía trên người ta có thể phủ thêm mứt. Chiếc bánh pho mát kem được làm từ những năm 1800 và trở thành một trong những món bánh quen thuộc của người dân New York.",
+  "price": 30000,
+  "img": "http://anhquanbakery.com/uploads/images/Chesse-Cake-2.jpeg",
+  "slug": "Cheese-Cake"
+},{
+  "_id": {
+    "$oid": "60969d8bd83333069b4eae2a"
+  },
+  "name": "Tiramisu",
+  "discript": "Là loại bánh ngọt vô cùng quen thuộc tại Việt Nam nhưng không phải ai cũng biết rõ về chúng. Tiramisu là loại bánh ngọt tráng miệng vị cà phê rất nổi tiếng có nguồn gốc từ Italy. Bánh gồm các lớp bánh quy Savoiardi nhúng cà phê xen kẽ với hỗn hợp trứng, đường, phô mai mascarpone đánh bông, bột cacao. Món bánh này còn có một tên gọi khác, là \"thiên đường ở trong miệng\", nhằm ca ngợi độ ngon của Tiramisu.",
+  "price": 40000,
+  "img": "http://anhquanbakery.com/uploads/images/tiramisu-cake.jpg",
+  "slug": "Tiramisu"
+},{
+  "_id": {
+    "$oid": "60969de0d83333069b4eae2b"
+  },
+  "name": "Black Forest",
+  "discript": "Đây là một kiểu bánh có nguồn gốc từ Đức với tên gốc là Schwarzwälder Kirschtorte. Nó bao gồm nhiều lớp bánh chocolate sponge, phủ váng sữa đánh tơi, maraschino cherry và chocolate bào mỏng.",
+  "price": 60000,
+  "img": "http://anhquanbakery.com/uploads/images/black-forest-cake.jpg",
+  "slug": "Black-Forest"
+},{
+  "_id": {
+    "$oid": "6096a3a7f22dd25c8f8e3868"
+  },
+  "name": "Sachertorte",
+  "discript": "Đây là một loại bánh được tạo ra bởi chocolate tuyệt hảo nhất nước Áo. Bánh có vị ngọt dịu nhẹ, gồm nhiều lớp bánh được làm từ bánh mì và bánh sữa chocolate, xen lẫn giữa các lớp bánh là mứt mơ. Món bánh chocolate này nổi tiếng và thành phố Vienna đã ấn định tổ chức một ngày Sachertorte quốc gia, vào ngày 5/12 hàng năm.",
+  "price": 50000,
+  "img": "http://anhquanbakery.com/uploads/images/sachertorte.jpg",
+  "slug": "Sachertorte"
+},{
+  "_id": {
+    "$oid": "6096a49cf22dd25c8f8e3869"
+  },
+  "name": "Pandan",
+  "discript": "Bánh Pandan còn có tên gọi khác là bánh bông lan lá dứa. Bánh có màu xanh tự nhiên đẹp mắt, mùi thơm của lá dứa và mềm mịn, tơi xốp nhưng cũng không quá ngọt. Đây là món bánh rất nổi tiếng ở Singapore, thường được nhiều du khách mua về làm quà.",
+  "price": 80000,
+  "img": "http://anhquanbakery.com/uploads/images/pandan-chiffon-cake.jpg",
+  "slug": "Pandan"
+}]
