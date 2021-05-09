@@ -1,0 +1,36 @@
+<div class="footer_container mt-4 container">
+    <div class="row">
+        <div class=" col-lg-4 col-md-12 col-sm-12 footer_colu">
+            <h2>HuyBakery</h2>
+            <p>Chuyên sản xuất các loại bánh ngọt, bánh sinh nhật...</p>
+            <span>Gọi điện đặt bánh: 0367461664</span><br>
+            <span>Địa chỉ: Thanh Xuân, Hà Nội</span>
+        </div>
+        <div class=" col-lg-4 col-md-12 col-sm-12 footer_colu">
+            <h2>Liên kết xã hội</h2>
+            <div class="Social-link">
+                <div class="link-icon"><i class="fab fa-facebook-square"></i></div>
+                <a href="" class="link-detail">https://facebook.com/HuyBakery123</a>
+            </div>
+            <div class="Social-link">
+                <div class="link-icon"><i class="fab fa-instagram"></i></div>
+                <a href="" class="link-detail">https://istargram/HuyBakery123</a>
+            </div>
+            <div class="Social-link">
+                <div class="link-icon"><i class="fab fa-twitter"></i></div>
+                <a href="" class="link-detail">https://tweeter/HuyBakery123</a>
+            </div>
+        </div>
+        <div class=" col-lg-4 col-md-12 col-sm-12 footer_colu">
+            <h2>Danh mục sản phẩm</h2>
+            <ul class="catelory">
+                {{#each products}}
+                    <li class="cateloty-item">{{this.name}}</li>
+                {{/each}}
+            </ul>
+        </div>
+        
+        
+
+    </div>
+</div>

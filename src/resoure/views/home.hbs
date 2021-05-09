@@ -1,0 +1,19 @@
+<h1 class="title mt-4" >Những chiếc bánh hot nhất 2021</h1>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12 col-md-12 col-lg-12 mt-4">
+      {{#each products}}
+
+    <div class="product-item mt-4">
+        <div class="img-product">
+                <a href="/products/{{this.slug}}" class="product-link "><img src="{{this.img}}" alt=""></a>
+        </div>
+        <a href="/products/{{this.slug}}" class="product-link">
+        <h3 class="product-name">{{this.name}}</h3>
+        </a>
+        <p class="product-discript">{{this.discript}}</p>
+        <a href="/products/{{this.slug}}"><button type="button" class="btn btn-primary mua-btn" >Mua ngay</button></a>
+    </div>
+    {{/each}}
+</div>
