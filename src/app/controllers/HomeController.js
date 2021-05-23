@@ -15,5 +15,15 @@ class HomeControllers{
          })
         
     }
+
+    search(req, res, next){
+        const searchkey = req.query.q;
+        Product.find({name: {$regex:searchkey, $options: '$i'}})
+        .then(products =>{
+             res.render('search', { products: multiMongoosetoObject(products) }) 
+            //res.json(products);
+        })
+        .catch(next);
+    }
 }
 module.exports = new HomeControllers;

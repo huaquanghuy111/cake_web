@@ -1,0 +1,15 @@
+<h1>Sản phẩm đã tìm được</h1>
+<ul class="list-products">
+    {{#each products}}
+    <div class="products-item container">
+        <div class="row">
+            <div class="search-products-img col-lg-4 col-md-4 col-sm-4">
+            <img src="{{this.img}}" alt="" class="anh sp">
+            </div>
+
+            <div class="search-products-name col-lg-4 col-md-4 col-sm-4"><h3 class="name-sp">{{this.name}}</h3></div>
+            <div class="col-lg-4 col-md-4 col-sm-4 link" ><a href="/products/{{this.slug}}"><h3 class="see-more">Xem sản phẩm...</h3></a></div>
+        </div>
+    </div>
+    {{/each}}
+</ul>

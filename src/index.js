@@ -1,5 +1,5 @@
 const express = require('express')
-
+const session = require('express-session')
 
 //database
 const db = require('./config/db')
@@ -13,6 +13,17 @@ app.set('view engine', 'hbs');
 //config path
 app.set('views', path.join(__dirname, 'resoure/views'))
 app.use(express.static(path.join(__dirname, 'public')));
+
+
+
+app.set('trust proxy', 1) // trust first proxy
+app.use(session({
+  secret: 'keyboard cat',
+  resave: false,
+  saveUninitialized: true,
+  cookie: { secure: true }
+}))
+
 
 app.use(express.urlencoded({
   extended: true
